@@ -1,89 +1,190 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Matheus Costa</title>
 
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Montserrat:wght@100&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
             rel="stylesheet"
         />
 
-        <link rel="stylesheet" href="/styles/global.css" />
+        <link rel="stylesheet" href="./styles/global.css" />
+
         <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+        <!-- Script AOS - Animações -->
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
+
+        <!-- Primary Meta Tags -->
+        <title>Matheus Costa - Portfólio</title>
+        <meta name="title" content="Matheus Costa - Portfólio" />
+        <meta
+            name="description"
+            content="Apaixonado pelo universo da programação, atualmente estou focado em aprimorar meus conhecimentos na área do frontend com React e NextJS. Um dos motivos pelos quais escolhi o ramo da programação é a oportunidade de criar projetos que possam beneficiar a vida das pessoas por meio da tecnologia."
+        />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta
+            property="og:url"
+            content="https://portfolio-leonardovargas.netlify.app/"
+        />
+        <meta property="og:title" content="Leonardo Vargas - Portfólio" />
+        <meta
+            property="og:description"
+            content="Apaixonado pelo universo da programação, atualmente estou focado em aprimorar meus conhecimentos na área do frontend com React e NextJS. Um dos motivos pelos quais escolhi o ramo da programação é a oportunidade de criar projetos que possam beneficiar a vida das pessoas por meio da tecnologia."
+        />
+        <meta
+            property="og:image"
+            content="https://portfolio-leonardovargas.netlify.app/assets/eu.jpg"
+        />
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+            property="twitter:url"
+            content="https://portfolio-leonardovargas.netlify.app/"
+        />
+        <meta property="twitter:title" content="Leonardo Vargas - Portfólio" />
+        <meta
+            property="twitter:description"
+            content="Apaixonado pelo universo da programação, atualmente estou focado em aprimorar meus conhecimentos na área do frontend com React e NextJS. Um dos motivos pelos quais escolhi o ramo da programação é a oportunidade de criar projetos que possam beneficiar a vida das pessoas por meio da tecnologia."
+        />
+        <meta
+            property="twitter:image"
+            content="https://portfolio-leonardovargas.netlify.app/assets/eu.jpg"
+        />
     </head>
     <body>
         <div class="app">
-            <section class="card user">
+            <section
+                class="card user"
+                data-aos="fade-right"
+                data-aos-duration="800"
+                data-aos-easing="ease-in-out"
+            >
                 <picture>
-                    <img src="/assets/perfil.jpg" alt="" />
+                    <img src="./assets/eu.jpg" alt="" />
                 </picture>
 
-                <div class="user--content">
+                <div class="user__content">
                     <h1>Matheus Costa</h1>
-                    <p>Desenvolvedor Iniciante Frontend</p>
+
+                    <p>Desenvolvedor Frontend</p>
+
                     <div class="social">
-                        <a href="#" class="social-link" target="_blank">
+                        <a
+                            title="link para a rede social linkedin"
+                            aria-label="link para a rede social linkedin"
+                            href="https://www.linkedin.com/in/leonardo-luis-de-vargas/"
+                            class="social__link"
+                            target="_blank"
+                        >
                             <i class="ph ph-linkedin-logo"></i>
                         </a>
+
                         <a
-                            href="https://github.com/montinne"
-                            class="social-link"
+                            title="link para a rede social github"
+                            aria-label="link para a rede social github"
+                            href="https://github.com/leovargasdev"
+                            class="social__link"
                             target="_blank"
                         >
                             <i class="ph ph-github-logo"></i>
                         </a>
-                        <a href="#" class="social-link" target="_blank">
-                            <i class="ph ph-instagram-logo"></i>
-                        </a>
-                        <a href="#" class="social-link" target="_blank">
-                            <i class="ph ph-facebook-logo"></i>
-                        </a>
+
                         <a
-                            href="https://youtube.com/@matheusmontinne"
-                            class="social-link"
+                            title="link para a rede social youtube"
+                            aria-label="link para a rede social youtube"
+                            href="https://www.youtube.com/@leovargas"
+                            class="social__link"
                             target="_blank"
                         >
                             <i class="ph ph-youtube-logo"></i>
+                        </a>
+
+                        <a
+                            title="link para a rede social instagram"
+                            aria-label="link para a rede social instagram"
+                            href="https://www.instagram.com/leuvargas"
+                            class="social__link"
+                            target="_blank"
+                        >
+                            <i class="ph ph-instagram-logo"></i>
+                        </a>
+
+                        <a
+                            title="link para a rede social twitter"
+                            aria-label="link para a rede social twitter"
+                            href="https://twitter.com/leovargasdev"
+                            class="social__link"
+                            target="_blank"
+                        >
+                            <i class="ph ph-twitter-logo"></i>
+                        </a>
+
+                        <a
+                            title="link para a rede social twitch"
+                            aria-label="link para a rede social twitch"
+                            href="https://www.twitch.tv/leovargasdev"
+                            class="social__link"
+                            target="_blank"
+                        >
+                            <i class="ph ph-twitch-logo"></i>
                         </a>
                     </div>
                 </div>
             </section>
 
-            <section class="card about">
+            <section
+                class="card about"
+                data-aos="fade-left"
+                data-aos-duration="800"
+                data-aos-easing="ease-in-out"
+            >
                 <h2 class="subtitle">Sobre</h2>
+
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Excepturi repudiandae mollitia nulla sit maiores ab, aperiam
-                    similique quia fugiat neque facilis asperiores aut vel
-                    dolorum in reprehenderit eligendi hic architecto?
+                    Olá, eu sou o Matheus Costa, tenho 27 anos e sou um feliz
+                    marido e pai de duas crianças incríveis. Meus passatempos
+                    favoritos são jogar e programar.
                 </p>
 
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-                    velit quos cumque itaque reprehenderit minus mollitia
-                    facere. Consectetur nesciunt magnam, ea, ut numquam illum
-                    animi, incidunt expedita quod maxime sapiente!
+                    Tenho um forte interesse no desenvolvimento frontend, e
+                    minhas habilidades se concentram principalmente em HTML, CSS
+                    e JavaScript.
                 </p>
 
                 <p>
-                    Lorem ipsum dolor sit
-                    <a
-                        href="https://youtube.com/@matheusmontinne"
-                        target="_blank"
-                        >amet consectetur</a
-                    >
-                    adipisicing elit. Perferendis nostrum ipsum tempora labore
-                    fugit.
+                    Estou sempre ansioso para aprender e crescer como
+                    desenvolvedor, enquanto trabalho para criar experiências
+                    incríveis na web. 😊🎮💻
                 </p>
             </section>
 
-            <section class="card projects">
+            <section
+                class="card projects"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-easing="ease-in-out"
+            >
                 <h2 class="subtitle">Projetos</h2>
+
+                <div id="project__content"></div>
             </section>
         </div>
+
+        <script src="./scripts/index.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <script>
+            AOS.init({ once: true });
+        </script>
     </body>
 </html>
