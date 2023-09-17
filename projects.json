@@ -1,19 +1,19 @@
 [
     {
         "name": "Gestão de Células para Igrejas",
-        "image": "./assets/projeto-celulas-church.png",
+        "image": "./assets/process-animate.svg",
         "tags": ["HTML", "CSS", "Javascript", "Bootstrap"],
         "link": "#"
     },
     {
-        "name": "Em desenvolvimento..",
-        "image": "./assets/projeto-formulario.png",
+        "name": "Em desenvolvimento...",
+        "image": "./assets/process-animate.svg",
         "tags": ["HTML", "CSS", "Javascript"],
         "link": "#"
     },
     {
-        "name": "Em desenvolvimento..",
-        "image": "./assets/projeto-guardioes.png",
+        "name": "Em desenvolvimento...",
+        "image": "./assets/process-animate.svg",
         "tags": ["HTML", "CSS", "Javascript"],
         "link": "#"
     }
